@@ -1,0 +1,24 @@
+#smeyeul-content {
+  @import "../partials/artist-link-button";
+
+  .column-top-margin {
+    margin-top: $spacing * 2;
+  }
+
+  .artist-bio {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.footer_color {
+  height: 300px;
+  .flex_column {
+    display: none;
+  }
+}

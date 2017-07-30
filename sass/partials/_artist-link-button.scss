@@ -1,0 +1,16 @@
+.artist-link-button {
+  a {
+    width: 215px;
+    font-size: 20px;
+    border: 1px solid color(secondary);
+    color: color(secondary) !important;
+    background-color: color(primary);
+    transition: all ease .3s;
+
+    &:hover {
+      background-color: color(secondary);
+      border-color: color(primary);
+      color: color(primary) !important;
+    }
+  }
+}
